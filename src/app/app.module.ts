@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HourComponent } from './hour/hour.component';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import { FooterComponent } from './footer/footer.component';
 
 registerLocaleData(localePt);
 
@@ -12,7 +13,8 @@ registerLocaleData(localePt);
 @NgModule({
   declarations: [
     AppComponent,
-    HourComponent
+    HourComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
