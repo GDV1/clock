@@ -1,0 +1,14 @@
+.hora-brasil {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 10rem;
+}
+
+p {
+    font-size: 5rem;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
